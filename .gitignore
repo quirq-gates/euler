@@ -30,6 +30,3 @@ id_ed25519*
 *token*
 *secret*
 *credentials*
-
-# Logs
-*.log
