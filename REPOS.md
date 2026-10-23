@@ -10,7 +10,7 @@ Rebuilt by `update-index.sh`.
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `98f7755` |
+| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `7011626` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -72,11 +72,11 @@ vercel-activity is a small public Next.js dashboard, deployed on Vercel, of depl
 
 - GitHub: https://github.com/quirq-gates/vercel-activity
 - Branch: `main`
-- Commit: `98f7755ff76f7981b09b5c2f3223b828181d277d` (2026-10-23: Point workspace.json at quirq-gates/vercel-activity)
+- Commit: `70116265d30f4e34b1541f0eff35fab57c6a81e0` (2026-10-23: Show every project in the quirq-research team)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/vercel-activity.git vercel/vercel-activity
-git -C vercel/vercel-activity checkout 98f7755ff76f7981b09b5c2f3223b828181d277d
+git -C vercel/vercel-activity checkout 70116265d30f4e34b1541f0eff35fab57c6a81e0
 ```
 
 ## xo-coworker
