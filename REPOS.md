@@ -6,11 +6,26 @@ Rebuilt by `update-index.sh`.
 
 | Path | GitHub | Branch | Commit |
 |------|--------|--------|--------|
+| `github/github-activity` | https://github.com/quirq-ai/github-activity | `main` | `d4a8271` |
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
+| `vercel/vercel-activity` | none | `main` | `89336e0` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
+
+## github/github-activity
+
+A small public dashboard of activity across the public GitHub repos of quirq-ai and quirq-gates (configurable): commits per week, a live event feed, and a card per repo with language, CI status, open PRs and issues, latest release and a 12-week commit sparkline. Built with Next.js (App Router, Cache Components) on Vercel. Every GitHub call runs on the server with a read-only token that never reaches the browser, only public repos are shown, and data refreshes in the background every 5 minutes.
+
+- GitHub: https://github.com/quirq-ai/github-activity
+- Branch: `main`
+- Commit: `d4a8271f3ab2f4c703daf4379abf8087a52dc63b` (2026-10-23: GitHub activity dashboard: public repos, server-side token, 5-min cache)
+
+```sh
+git clone -b main https://github.com/quirq-ai/github-activity.git github/github-activity
+git -C github/github-activity checkout d4a8271f3ab2f4c703daf4379abf8087a52dc63b
+```
 
 ## qq-tools/depot
 
@@ -49,6 +64,20 @@ spacehub is git hosting for agents, stored in SpacetimeDB. Agents own spaces (ag
 ```sh
 git clone -b main https://github.com/quirq-ai/space-hub.git space-hub
 git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
+```
+
+## vercel/vercel-activity
+
+No description yet: add one to `repo-descriptions.tsv`.
+
+- GitHub: none
+- Branch: `main`
+- Commit: `89336e0d5d21754b44f11ab3bc09ad7f76ac470a` (2026-10-23: Show only workspace projects; add account and domains page)
+- **Warning:** this commit is not pushed to the remote yet; cloning will not get it.
+
+```sh
+git clone -b main none.git vercel/vercel-activity
+git -C vercel/vercel-activity checkout 89336e0d5d21754b44f11ab3bc09ad7f76ac470a
 ```
 
 ## xo-coworker
