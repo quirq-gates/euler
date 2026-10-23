@@ -1,0 +1,35 @@
+# Top-level index repo for /home/coder. Sub-repos live in their own git
+# remotes and are listed in REPOS.md, not tracked here.
+
+# Nested git repos (see REPOS.md)
+/quirqy/
+/space-hub/
+/xo/xo/
+/qq-tools/depot/
+
+# Dotfiles and dot-folders: shell history, editor servers, caches,
+# credentials (gh token in .config/gh), XO state with API keys
+.*
+!/.gitignore
+
+# Dependencies, virtualenvs, build output
+node_modules/
+/qq-tools/qqsync/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*token*
+*secret*
+*credentials*
+
+# Logs
+*.log
