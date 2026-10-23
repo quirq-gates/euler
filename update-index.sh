@@ -15,6 +15,17 @@ web_url() {
   sed -E 's|^git@([^:]+):|https://\1/|; s|\.git$||' <<<"$1"
 }
 
+describe() {
+  # From repo-descriptions.tsv, else the GitHub description; 500 characters at most.
+  local d
+  d=$(awk -F'\t' -v p="$1" '$1 == p { print $2; exit }' "$root/repo-descriptions.tsv" 2>/dev/null)
+  if [ -z "$d" ] && [[ $2 == https://github.com/* ]]; then
+    d=$(gh repo view "${2#https://github.com/}" --json description -q .description 2>/dev/null || true)
+  fi
+  d=${d:-No description yet: add one to \`repo-descriptions.tsv\`.}
+  echo "${d:0:500}"
+}
+
 {
   echo "# Repos in /home/coder"
   echo
@@ -37,6 +48,8 @@ web_url() {
     echo
     echo "## $r"
     echo
+    describe "$r" "$url"
+    echo
     echo "- GitHub: $url"
     echo "- Branch: \`${branch:-detached}\`"
     echo "- Commit: \`$sha\` ($(git -C "$root/$r" log -1 --format='%cs: %s'))"
@@ -50,3 +63,9 @@ web_url() {
     echo '```'
   done
 } >"$out"
+
+# Keep every sub-repo out of this repo, including ones added later.
+{
+  echo "# Sub-repos, written by update-index.sh"
+  for r in $repos; do echo "/$r/"; done
+} >"$root/.git/info/exclude"

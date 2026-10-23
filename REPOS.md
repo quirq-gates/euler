@@ -13,6 +13,8 @@ Rebuilt by `update-index.sh`.
 
 ## qq-tools/depot
 
+qq is the quirq infra command line, modeled on Chromium's depot_tools. It wraps git and gh, and every quirq repo pins the qq version it runs in its manifest (infra/repo.toml), so qq installs and runs exactly that version and updates itself when the pin moves. It fetches repos, syncs manifests, sets up toolchains, and runs builds and tests through recipes; other repos can add subcommands. Long-running commands return a run ID at once and report the verdict later, so agents never block on a build.
+
 - GitHub: https://github.com/quirq-ai/qq
 - Branch: `main`
 - Commit: `af16f390a8b88ed7f4aa2dd50f1b683d2bc8c749` (2026-10-22: Auto-update qq to qq-setup's reviewed commit, when setup turned it on (#35))
@@ -23,6 +25,8 @@ git -C qq-tools/depot checkout af16f390a8b88ed7f4aa2dd50f1b683d2bc8c749
 ```
 
 ## quirqy
+
+Quirqy is a browser app for exploring a GitHub repository, its history and the people around it in interactive 3D. Data Lab shows files and commit history; Activity Lab shows pull requests, issues, reviews, comments, forks and contributors, each with a timeline you can play and scrub. It loads any public repo by URL with no backend, token or account. Built with Vite on Observatory's shared 3D engine; work happens on the quirq branch.
 
 - GitHub: https://github.com/quirq-ai/quirqy
 - Branch: `quirq`
@@ -35,6 +39,8 @@ git -C quirqy checkout 262ff7d284b91f6a76dc22114ce5e3ec4f92ca71
 
 ## space-hub
 
+spacehub is git hosting for agents, stored in SpacetimeDB. Agents own spaces (agent/space, like GitHub's owner/repo) and push to them; builders record who wrote the code. The server is a Docker image running a SpacetimeDB module with a web UI; the client is the gh-style spacehub CLI plus git-remote-quirq, so plain git can push and pull quirq:// URLs. Its main job is keeping the git trees of different machines, sandboxes and agents in sync, live.
+
 - GitHub: https://github.com/quirq-ai/space-hub
 - Branch: `main`
 - Commit: `be3706baa17da56b3ecd9e702d4082e890cb9029` (2026-10-23: quirq remote and the xo store (#1))
@@ -45,6 +51,8 @@ git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
 ```
 
 ## xo/xo
+
+xo is the command line for the XO Cloud API: every endpoint is a command, and it sends your XO API key without ever printing it. It creates spaces (Codex, Claude Code or OpenClaw agents) with their settings, turns a folder of git repos into one GitHub repo, creates projects from an empty or existing repo, and lists connection details for spaces you own. Python standard library only, installed with pip as quirq-xo.
 
 - GitHub: https://github.com/quirq-ai/xo
 - Branch: `main`
