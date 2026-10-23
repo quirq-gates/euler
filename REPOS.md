@@ -68,7 +68,7 @@ git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
 
 ## vercel/vercel-activity
 
-Public dashboard of Vercel deployment activity for the projects deployed from our workspace
+vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.
 
 - GitHub: https://github.com/quirq-ai/vercel-activity
 - Branch: `main`
