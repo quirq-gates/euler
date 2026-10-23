@@ -6,11 +6,11 @@ Rebuilt by `update-index.sh`.
 
 | Path | GitHub | Branch | Commit |
 |------|--------|--------|--------|
-| `github/github-activity` | https://github.com/quirq-ai/github-activity | `main` | `d4a8271` |
+| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `d4a8271` |
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | https://github.com/quirq-ai/vercel-activity | `main` | `89336e0` |
+| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `98f7755` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -18,12 +18,12 @@ Rebuilt by `update-index.sh`.
 
 A small public dashboard of activity across the public GitHub repos of quirq-ai and quirq-gates (configurable): commits per week, a live event feed, and a card per repo with language, CI status, open PRs and issues, latest release and a 12-week commit sparkline. Built with Next.js (App Router, Cache Components) on Vercel. Every GitHub call runs on the server with a read-only token that never reaches the browser, only public repos are shown, and data refreshes in the background every 5 minutes.
 
-- GitHub: https://github.com/quirq-ai/github-activity
+- GitHub: https://github.com/quirq-gates/github-activity
 - Branch: `main`
 - Commit: `d4a8271f3ab2f4c703daf4379abf8087a52dc63b` (2026-10-23: GitHub activity dashboard: public repos, server-side token, 5-min cache)
 
 ```sh
-git clone -b main https://github.com/quirq-ai/github-activity.git github/github-activity
+git clone -b main https://github.com/quirq-gates/github-activity.git github/github-activity
 git -C github/github-activity checkout d4a8271f3ab2f4c703daf4379abf8087a52dc63b
 ```
 
@@ -70,13 +70,13 @@ git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
 
 vercel-activity is a small public Next.js dashboard, deployed on Vercel, of deployment activity for the Vercel projects deployed from this workspace (chosen in workspace.json), plus an /account page with the connected Vercel account and its domains. A server-only VERCEL_TOKEN reads the Vercel API; only allowlisted public-safe fields reach the page, cached 5 min.
 
-- GitHub: https://github.com/quirq-ai/vercel-activity
+- GitHub: https://github.com/quirq-gates/vercel-activity
 - Branch: `main`
-- Commit: `89336e0d5d21754b44f11ab3bc09ad7f76ac470a` (2026-10-23: Show only workspace projects; add account and domains page)
+- Commit: `98f7755ff76f7981b09b5c2f3223b828181d277d` (2026-10-23: Point workspace.json at quirq-gates/vercel-activity)
 
 ```sh
-git clone -b main https://github.com/quirq-ai/vercel-activity.git vercel/vercel-activity
-git -C vercel/vercel-activity checkout 89336e0d5d21754b44f11ab3bc09ad7f76ac470a
+git clone -b main https://github.com/quirq-gates/vercel-activity.git vercel/vercel-activity
+git -C vercel/vercel-activity checkout 98f7755ff76f7981b09b5c2f3223b828181d277d
 ```
 
 ## xo-coworker
