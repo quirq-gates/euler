@@ -8,6 +8,7 @@
 /qq-tools/depot/
 /xo-coworker/
 /github/github-activity/
+/vercel/vercel-activity/
 
 # Dotfiles and dot-folders: shell history, editor servers, caches,
 # credentials (gh token in .config/gh), XO state with API keys

@@ -10,7 +10,7 @@ Rebuilt by `update-index.sh`.
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | none | `main` | `89336e0` |
+| `vercel/vercel-activity` | https://github.com/quirq-ai/vercel-activity | `main` | `89336e0` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -68,15 +68,14 @@ git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
 
 ## vercel/vercel-activity
 
-No description yet: add one to `repo-descriptions.tsv`.
+Public dashboard of Vercel deployment activity for the projects deployed from our workspace
 
-- GitHub: none
+- GitHub: https://github.com/quirq-ai/vercel-activity
 - Branch: `main`
 - Commit: `89336e0d5d21754b44f11ab3bc09ad7f76ac470a` (2026-10-23: Show only workspace projects; add account and domains page)
-- **Warning:** this commit is not pushed to the remote yet; cloning will not get it.
 
 ```sh
-git clone -b main none.git vercel/vercel-activity
+git clone -b main https://github.com/quirq-ai/vercel-activity.git vercel/vercel-activity
 git -C vercel/vercel-activity checkout 89336e0d5d21754b44f11ab3bc09ad7f76ac470a
 ```
 

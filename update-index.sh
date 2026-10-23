@@ -53,6 +53,10 @@ describe() {
     echo "- GitHub: $url"
     echo "- Branch: \`${branch:-detached}\`"
     echo "- Commit: \`$sha\` ($(git -C "$root/$r" log -1 --format='%cs: %s'))"
+    if [ "$url" = none ]; then
+      echo "- **Warning:** no remote; this repo exists only on this machine and cannot be cloned."
+      continue
+    fi
     if [ -z "$(git -C "$root/$r" branch -r --contains HEAD 2>/dev/null)" ]; then
       echo "- **Warning:** this commit is not pushed to the remote yet; cloning will not get it."
     fi
