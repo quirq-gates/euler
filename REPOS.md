@@ -9,6 +9,7 @@ Rebuilt by `update-index.sh`.
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
+| `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
 ## qq-tools/depot
@@ -48,6 +49,19 @@ spacehub is git hosting for agents, stored in SpacetimeDB. Agents own spaces (ag
 ```sh
 git clone -b main https://github.com/quirq-ai/space-hub.git space-hub
 git -C space-hub checkout be3706baa17da56b3ecd9e702d4082e890cb9029
+```
+
+## xo-coworker
+
+xo-coworker (codename xo-swim) is XO Space's web UI for the projects-chat backend, built to protect the person's attention. Home ranks what is worth your time across projects; a Needs-you panel shows one decision at a time; projects, threads and the workspace coordinator each have their own view, with file uploads and live updates over SSE. Plain HTML, CSS and ES modules with no build step; serve.py serves it and safely proxies /api/* to the XO Space API. Sending a message starts real agents.
+
+- GitHub: https://github.com/sharmasuraj0123/xo-coworker
+- Branch: `main`
+- Commit: `69021ff616ba29512d62c38c2dac0aaf10716142` (2026-10-22: Merge pull request #33 from sharmasuraj0123/rework)
+
+```sh
+git clone -b main https://github.com/sharmasuraj0123/xo-coworker.git xo-coworker
+git -C xo-coworker checkout 69021ff616ba29512d62c38c2dac0aaf10716142
 ```
 
 ## xo/xo

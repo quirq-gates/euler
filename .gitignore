@@ -6,6 +6,7 @@
 /space-hub/
 /xo/xo/
 /qq-tools/depot/
+/xo-coworker/
 
 # Dotfiles and dot-folders: shell history, editor servers, caches,
 # credentials (gh token in .config/gh), XO state with API keys
