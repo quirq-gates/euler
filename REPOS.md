@@ -6,11 +6,11 @@ Rebuilt by `update-index.sh`.
 
 | Path | GitHub | Branch | Commit |
 |------|--------|--------|--------|
-| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `689f0ce` |
+| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `5e9c087` |
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `bc9fc30` |
+| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `c5ca6f1` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -20,12 +20,11 @@ github-activity is a static public portfolio of this space's GitHub work: a card
 
 - GitHub: https://github.com/quirq-gates/github-activity
 - Branch: `main`
-- Commit: `689f0cede69d71213058fcbd6100f686737f6dac` (2026-10-24: Match the Vercel portfolio: dark theme, quirq space header, Vercel/GitHub switch)
-- **Warning:** this commit is not pushed to the remote yet; cloning will not get it.
+- Commit: `5e9c08723e9a679e537a54e68a7cdaef01ae55c4` (2026-10-24: Rename to Space portfolio, matching vercel-activity)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/github-activity.git github/github-activity
-git -C github/github-activity checkout 689f0cede69d71213058fcbd6100f686737f6dac
+git -C github/github-activity checkout 5e9c08723e9a679e537a54e68a7cdaef01ae55c4
 ```
 
 ## qq-tools/depot
@@ -73,11 +72,11 @@ vercel-activity is a static public portfolio of what this space ships on Vercel 
 
 - GitHub: https://github.com/quirq-gates/vercel-activity
 - Branch: `main`
-- Commit: `bc9fc30f68757e2aeca2b00862c5e5be89cb9340` (2026-10-24: Refresh snapshot)
+- Commit: `c5ca6f16e23172b1e1df889f7644971cd8c59979` (2026-10-24: Refresh snapshot)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/vercel-activity.git vercel/vercel-activity
-git -C vercel/vercel-activity checkout bc9fc30f68757e2aeca2b00862c5e5be89cb9340
+git -C vercel/vercel-activity checkout c5ca6f16e23172b1e1df889f7644971cd8c59979
 ```
 
 ## xo-coworker
