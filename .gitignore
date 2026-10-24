@@ -33,3 +33,19 @@ id_ed25519*
 *token*
 *secret*
 *credentials*
+*.p8
+*.jks
+*.keystore
+*.kdbx
+*.ovpn
+*.tfstate
+*.tfvars
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Build output and venvs anywhere
+venv/
+dist/
+build/
