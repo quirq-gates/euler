@@ -10,7 +10,7 @@ Rebuilt by `update-index.sh`.
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `faada8f` |
+| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `a3afa35` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -72,11 +72,11 @@ vercel-activity is a static public portfolio of what this space ships on Vercel 
 
 - GitHub: https://github.com/quirq-gates/vercel-activity
 - Branch: `main`
-- Commit: `faada8fcdd56842be1e030220822338502ce5c11` (2026-10-26: Hourly snapshot 2026-10-26 06:00 UTC)
+- Commit: `a3afa353d1afcf829b7ecf0b1c314756bcd1479b` (2026-10-26: Hourly snapshot 2026-10-26 12:00 UTC)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/vercel-activity.git vercel/vercel-activity
-git -C vercel/vercel-activity checkout faada8fcdd56842be1e030220822338502ce5c11
+git -C vercel/vercel-activity checkout a3afa353d1afcf829b7ecf0b1c314756bcd1479b
 ```
 
 ## xo-coworker
