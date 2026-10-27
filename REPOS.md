@@ -6,7 +6,7 @@ Rebuilt by `update-index.sh`.
 
 | Path | GitHub | Branch | Commit |
 |------|--------|--------|--------|
-| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `030395f` |
+| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `d0d5d4c` |
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
@@ -20,11 +20,11 @@ github-activity is a static public portfolio of this space's GitHub work: a card
 
 - GitHub: https://github.com/quirq-gates/github-activity
 - Branch: `main`
-- Commit: `030395f2b82d5144cb88b41af1173af76553f58b` (2026-10-27: Hourly snapshot 2026-10-27 12:00 UTC)
+- Commit: `d0d5d4c6db051112a3bbb6a00514b528974439f6` (2026-10-27: Hourly snapshot 2026-10-27 18:00 UTC)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/github-activity.git github/github-activity
-git -C github/github-activity checkout 030395f2b82d5144cb88b41af1173af76553f58b
+git -C github/github-activity checkout d0d5d4c6db051112a3bbb6a00514b528974439f6
 ```
 
 ## qq-tools/depot
