@@ -6,11 +6,11 @@ Rebuilt by `update-index.sh`.
 
 | Path | GitHub | Branch | Commit |
 |------|--------|--------|--------|
-| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `1c8b7ab` |
+| `github/github-activity` | https://github.com/quirq-gates/github-activity | `main` | `dc59aad` |
 | `qq-tools/depot` | https://github.com/quirq-ai/qq | `main` | `af16f39` |
 | `quirqy` | https://github.com/quirq-ai/quirqy | `quirq` | `262ff7d` |
 | `space-hub` | https://github.com/quirq-ai/space-hub | `main` | `be3706b` |
-| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `58462ef` |
+| `vercel/vercel-activity` | https://github.com/quirq-gates/vercel-activity | `main` | `34a3a22` |
 | `xo-coworker` | https://github.com/sharmasuraj0123/xo-coworker | `main` | `69021ff` |
 | `xo/xo` | https://github.com/quirq-ai/xo | `main` | `0546efd` |
 
@@ -20,11 +20,11 @@ github-activity is a static public portfolio of this space's GitHub work: a card
 
 - GitHub: https://github.com/quirq-gates/github-activity
 - Branch: `main`
-- Commit: `1c8b7abc5a95235f1df4cf9612d4fd102a6be3ad` (2026-10-28: Hourly snapshot 2026-10-28 00:00 UTC)
+- Commit: `dc59aad6e6973e71ba9aa64151d7e18b7fa86787` (2026-10-28: Hourly snapshot 2026-10-28 06:00 UTC)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/github-activity.git github/github-activity
-git -C github/github-activity checkout 1c8b7abc5a95235f1df4cf9612d4fd102a6be3ad
+git -C github/github-activity checkout dc59aad6e6973e71ba9aa64151d7e18b7fa86787
 ```
 
 ## qq-tools/depot
@@ -72,11 +72,11 @@ vercel-activity is a static public portfolio of what this space ships on Vercel 
 
 - GitHub: https://github.com/quirq-gates/vercel-activity
 - Branch: `main`
-- Commit: `58462ef3f6635018f52b552c267f22fced7fed30` (2026-10-28: Hourly snapshot 2026-10-28 00:00 UTC)
+- Commit: `34a3a22859dcc2816fc792756056cea3e765435b` (2026-10-28: Hourly snapshot 2026-10-28 06:00 UTC)
 
 ```sh
 git clone -b main https://github.com/quirq-gates/vercel-activity.git vercel/vercel-activity
-git -C vercel/vercel-activity checkout 58462ef3f6635018f52b552c267f22fced7fed30
+git -C vercel/vercel-activity checkout 34a3a22859dcc2816fc792756056cea3e765435b
 ```
 
 ## xo-coworker
